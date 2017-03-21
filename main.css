@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url("./img/main-bg.jpeg") center no-repeat;
+  background-size: cover;
+
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+.menu-button {
+
+
+}
+
+.head-text{
+font-family: 'Passion One', cursive;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  display: none;
+}
+.icon-box {
+
+}
+
+.icon {
+
+
+}
+
+
+
+.middle {
+   width: 100%;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.your {
+  font-family: 'Passion One', cursive;
+text-align: center;
+font-size: 120px;
+color: white;
+}
+
+.portfolio {
+  font-family: 'Passion One', cursive;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.bottom {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+.circle {
+
+}
+
+@media(min-width: 700px) {
+  .header {
+    justify-content: space-around;
+    align-items: center;
+    padding: none;
+  }
+  .menu-button {
+display:none;
+  }
+  .head-text {
+    display: flex;
+  }
+  .icon-box {
+    display: none;
+  }
+  .icon {
+    display:none;
+  }
+}
